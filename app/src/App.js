@@ -98,7 +98,9 @@ function App() {
       <div className='table_container'>
         <TableContainer component={Paper}>
           <Table sx={{minWidth: 650}} aria-label='simple table'>
-            <TableHead >
+            <TableHead sx={{"& th": {
+        color: "white"
+      }}}>
               <TableRow
                 sx={{
                   background:'#2E3B55',
